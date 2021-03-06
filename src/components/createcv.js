@@ -15,6 +15,9 @@ export default class Createcv extends Component {
         this.onChangeNationality = this.onChangeNationality.bind(this);
         this.onChangePhone = this.onChangePhone.bind(this);
         this.onChangeEmail = this.onChangeEmail.bind(this);
+        // this.onChangeTertiary = this.onChangeTertiary.bind(this);
+        // this.onChangeOtherTertiary = this.onChangeOtherTertiary.bind(this);
+        // this.onChangeHighcshool = this.onChangeHighcshool.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
 
         this.state = {
@@ -26,6 +29,10 @@ export default class Createcv extends Component {
             nationality: '',
             phone: '',
             email: '',
+            // tertiary: '',
+            // otherTertiary: '',
+            // highschool
+
         }
     }
 
